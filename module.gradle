@@ -1,0 +1,9 @@
+ext {
+    moduleLibraryName = "android.modmenu"
+    magiskModuleId = "zygisk.imgui"
+    moduleName = "Mod Menu"
+    moduleAuthor = "Dapz"
+    moduleDescription = "Menu mod for android using zygisk"
+    moduleVersion = "v1.0.0"
+    moduleVersionCode = 1
+}
