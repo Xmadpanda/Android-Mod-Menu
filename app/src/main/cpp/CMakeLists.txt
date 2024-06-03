@@ -41,6 +41,7 @@ set(IMGUI_SRC
 
 add_library(${CMAKE_PROJECT_NAME} SHARED
     main.cpp
+    hack.cpp
     ${IMGUI_SRC}
 )
 

@@ -9,4 +9,8 @@ bool enableHack;
 char *gameDataDir;
 void *hackThread(void *arg);
 
+#define HOOKAF(ret, func, ...) \
+	ret (*orig##func)(__VA_ARGS__); \
+	ret my##func(__VA_ARGS__)
+
 #endif
